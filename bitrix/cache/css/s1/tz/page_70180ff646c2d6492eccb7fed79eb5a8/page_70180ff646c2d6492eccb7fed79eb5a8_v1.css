@@ -1,0 +1,18 @@
+
+
+/* Start:/local/templates/tz/components/bitrix/news.list/work/style.css?1700067613150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+/* /local/templates/tz/components/bitrix/news.list/work/style.css?1700067613150 */

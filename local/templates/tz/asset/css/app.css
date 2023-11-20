@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: #ffeb85;
+    color: black;
+}
+.main {
+    margin-top: 60px;
+    text-align: left;
+}
+.mess a {
+    float: left;
+    display: block;
+    color: #000000;
+    background-color: #ffeb85;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.mess a:hover {
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 14px 16px;
+    background-color: #d7be38;
+    color: #ffffff;
+}
+.back a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.back a:hover {
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 14px 16px;
+    background-color: #4d4d4d;
+    color: #ffeb85;
+}
+.nav_img a {
+    float: left;
+    display: block;
+}
+.text_th {
+    width: 70%;
+    float: left;
+    display: block;
+    color: #000000;
+}
+.text_about {
+    width: 67%;
+    float: left;
+    display: block;
+    color: #000000;
+    horiz-align: left;
+    justify-content: left;
+}
+.logo_img {
+    width: 50%;
+    float: left;
+    display: block;
+}
+.blog_img {
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+.text {
+    float: left;
+    display: block;
+    color: #000000;
+    font-size: 12px;
+}
+.work_menu a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.active, .work_menu a:hover {
+    background: #ffeb85;
+    color: black;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+.custom-select select {
+    display: none;
+}
+.select-selected {
+    background-color: #ffeb85;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #858585 transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+.select-items div, .select-selected {
+    color: #000000;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+.select-items {
+    position: absolute;
+    background-color: #ffeb85;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.select-hide {
+    display: none;
+}
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.work_but a {
+    width: fit-content;
+    padding: 14px 16px;
+    margin: auto;
+}
+.center_link {
+    display: flex;
+    text-decoration: none;
+    background-color: #ffeb85;
+    color: #000000;
+}
+#submit {
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 14px 16px;
+    background-color: #ffeb85;
+    color: #000000;
+}
+#submit:hover {
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 14px 16px;
+    background-color: #d7be38;
+    color: #ffffff;
+}
+input[type=text],[type=email],[type=textarea] {
+    padding:5px;
+    border:2px solid #d7be38;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+    border-color:#333;
+}
+textarea {
+    padding:5px;
+    border:2px solid #d7be38;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+a[href^="mailto:"] {
+    font-size: 16px;
+    line-height: 32px;
+    color: #40a915;
+}

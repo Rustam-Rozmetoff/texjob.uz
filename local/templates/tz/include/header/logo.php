@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH?>/asset/image/logo.png" alt="logo" class="nav_img" height="50">
